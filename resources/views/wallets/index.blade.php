@@ -10,7 +10,7 @@
     <div class="lg:col-span-2 space-y-6">
         <h3 class="font-bold text-slate-800 text-sm md:text-base border-b border-slate-100 pb-3 flex items-center gap-2">
             <i class="fa-solid fa-vault text-emerald-500"></i>
-            <span>Daftar Dompet & Akun Aktif</span>
+            <span>Daftar 1 Dompet & Akun Aktif</span>
         </h3>
 
         <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
