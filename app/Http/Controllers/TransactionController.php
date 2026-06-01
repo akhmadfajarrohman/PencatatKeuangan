@@ -86,7 +86,7 @@ class TransactionController extends Controller
             'name' => ['required', 'string', 'max:255'],
             'amount' => ['required', 'numeric', 'min:0.01'],
             'notes' => ['nullable', 'string'],
-            'attachment' => ['nullable', 'image', 'max:2048'], // Max 2MB image
+            'attachment' => ['nullable', 'image', 'max:10048'], // Max 2MB image
         ]);
 
         // Security check
@@ -155,7 +155,7 @@ class TransactionController extends Controller
             'name' => ['required', 'string', 'max:255'],
             'amount' => ['required', 'numeric', 'min:0.01'],
             'notes' => ['nullable', 'string'],
-            'attachment' => ['nullable', 'image', 'max:2048'],
+            'attachment' => ['nullable', 'image', 'max:10048'],
         ]);
 
         // Security check for wallet
